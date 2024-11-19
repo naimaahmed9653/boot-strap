@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div-icon li{
+  list-style: none;
+  color: rgb(138, 87, 186);
+  font-size: 30px;
+  /* margin-top: -100px; */
+ 
+}
+.gh{
+    position: fixed;
+    top: 0;
+    z-index: 60;
+    width: 100vw;
+}
+.tt:after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+   
+    background-color: rgb(12, 89, 127);
+    opacity: .5;
+}
+
+.tt:hover::after{
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+.tt{
+    position: relative;
+}
+/* .ll{
+    position: fixed;
+  
+} */
+.container-fluid img{
+    border-radius: 50%;
+}
+.navbar-brand{
+    margin-left: 20px;
+    border-right : 1px rgb(164, 201, 222) solid;
+}
+.d-flex button{
+    width: 150px;
+    height: 40px;
+    margin-right: 5px;
+    background-color: rgb(71, 71, 176);
+}
+.carousel-inner img{
+    width: 100wh;
+    height: 100vh;
+}
+.overlay li{
+    list-style: none;
+
+}
+.overlay i{
+    color: rgb(52, 52, 84);
+    z-index: 1000;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: -450px;
+    margin-left: 93%;
+    font-size: 40px;
+    
+    position: fixed;
+}
+.bg{
+    background-image: url(../image/mount-allalin-7431233_1280.jpg);
+    width: 100wh;
+    height: 50vh;
+   background-size: cover;
+   background-attachment: fixed;
+}
+.th{
+    display: flex;
+   justify-content: space-between;
+   margin-top: 5%;
+}
+.div1{
+    width: 300px;
+    height: 450px;
+    background-image: url(../image/mount-allalin-7431233_1280.jpg);
+    background-size: cover;
+    transition: 1s;
+    text-align: center;
+}
+.div1 h3,span{
+    color: rgba(73, 149, 207, 0.847);
+}
+.div1:hover{
+    transform: scale(1.1,1.1);
+}
+.div1 img{
+    width: 80px;
+    height: 80px;
+    margin-top: 130px;
+}
+.card-img-top{
+    width: 280px;
+    margin: auto;
+}
+.dropdown-menu a{
+    color: rgb(101, 101, 187);
+}
+.aa{
+    color: rgb(48, 48, 101);
+}
+.bb{
+    background-color: rgba(38, 38, 61, 0.5);
+}
+.ab h1{
+    color:white;
+}
+.ab p{
+    color: whitesmoke;
+}
+.ab{
+    background-color: rgb(90, 151, 168);
+    height: 190px;
+}
+.ab button{
+    background-color: white;
+    color: rgb(76, 65, 174);
+    width: 100px;
+}
+.ab button:hover{
+    background-color: rgb(90, 151, 168);
+}
+.cc{
+    text-align: center;
+    font-size: 25px;
+    color: whitesmoke;
+    height: 150px;
+    background-color:  rgb(90, 151, 168);
+}
+.cc h2{
+   padding-top: 55px;
+
+}
+.dd a{
+    text-decoration: none;
+    color:  rgb(90, 151, 168);
+}
+.ee{
+    color: rgb(114, 219, 231);
+}
+.ff{
+    height: 50px;
+    background-color: rgb(90, 151, 168);
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.gg{
+    height: 270px;
+    background-color: rgba(3, 75, 83, 0.788);
+}
+.gg span{
+    color: white;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.hh{
+    background-color: rgb(30, 88, 88);
+    width: 140px;
+    border: none;
+    margin-top: 10px;
+}
+.hh:hover{
+    background-color: rgb(1, 59, 59);
+    border: none;
+}
+.ii{
+    background-color: rgb(22, 91, 91);
+    width: 50px;
+}
+.ii:hover{
+    background-color: rgba(24, 154, 154, 0.685);
+}
+.jj{
+    font-size: 40px;
+    background-color: rgba(46, 108, 149, 0.708);
+    height: 50px;
+    color: white;
+    text-align: center;
+}
+.tt a{
+    float: right;
+    margin-top: -80px;
+    background-color: rgb(30, 79, 105);
+}
+.tt h4, p{
+    color: rgba(9, 83, 108, 0.68);
+}
+.kk{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.mn{
+    display: flex;
+    margin-top: 50px;
+}
+.left{
+    width: 65%;
+    height: 300px;
+    background-color: rgb(173, 205, 236);
+   
+}
+.right{
+    width: 35%;
+    height: 300px;
+    background-color: rgb(173, 205, 236);
+}
+.right img{
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 6% 100%);
+    width: 100%;
+    height: 100%;
+}
+.head{
+   text-align: center;
+    font-size: 35px;
+    text-shadow: rgb(124, 124, 173);
+}
+.left p{
+    margin-top: 25px;
+}
+.left button{
+    margin-left: 30px;
+    border: none;
+    color: rgb(118, 150, 162);
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+}
+.icon ,.word{
+    padding-left: 30px;
+}
+.underline{
+    width: 70px;
+    height: 4px;
+    background-color: rgb(19, 88, 132);
+    margin-left: 10px;
+}
+.left h3{
+    color: rgba(41, 41, 111, 0.904);
+    padding-left: 10px;
+}
+.left button:hover{
+    background-color: rgb(71, 71, 114);
+}
+/*///////////////////////////////////////////////////*/
+.kh{
+    display: flex;
+    margin-top: 50px;
+}
+.left1{
+    width: 35%;
+    height: 300px;
+    background-color: rgb(173, 205, 236);
+   
+}
+.right1{
+    width: 65%;
+    height: 300px;
+    background-color: rgb(173, 205, 236);
+}
+.left1 img{
+    clip-path: polygon(0 0, 100% 0%, 90% 100%, 0 100%);
+    width: 100%;
+    height: 100%;
+}
+.right1 p{
+    margin-top: 25px;
+}
+.right1 button{
+    margin-left: 30px;
+    border: none;
+    color: rgb(118, 150, 162);
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+}
+.right1 h3{
+    color: rgba(41, 41, 111, 0.904);
+    padding-left: 10px;
+}
+.right1 button:hover{
+    background-color: rgb(71, 71, 114);
+}
+.key{
+   margin-top: 15px;
+}
+.key2{
+    height: 40px;
+    margin-top: 15px;
+}
+.zz{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.zz img{
+    width: 100px;
+    height: 100px;
+}
+.zz a{
+    text-decoration: none;
+    color: rgb(31, 31, 52);
+}
+.zz h4{
+    color: rgb(26, 92, 158);
+}
+.yy{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.yy img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.xx{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.xx a{
+    text-decoration: none;
+    color: black;
+}
+.xx a:hover{
+    color: rgb(3, 134, 134);
+}
+.final{
+    text-align: center;
+    color: rgb(26, 92, 158);
+    text-shadow: rgb(34, 78, 128) 1px;
+}
+.bb p{
+    color: rgb(242, 242, 250);
+}
